@@ -1,0 +1,1 @@
+setTimeout('window.fullScreen = true;',1); 

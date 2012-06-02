@@ -1,0 +1,9 @@
+    JucaNet - Navegador em XUL
+
+    Esse programa é grátis e pode ser distribuído e/ou modificado sob os termos da GNU General Public License, como publicado pela Free Software Foundation, versão 3 ou superior.
+
+http://www.gnu.org/licenses/gpl.html
+
+Tradução não oficial:
+
+http://www.magnux.org/doc/GPL-pt_BR.txt
