@@ -13,6 +13,8 @@
 
 <script type="application/x-javascript" src="chrome://jucanet/content/fullscreen.js"/>
 
+<script type="application/x-javascript" src="chrome://jucanet/content/urlbar.js"/>
+
 <broadcasterset id="browserBroadcasters">
     <broadcaster id="canGoBack"    disabled="false"/>
     <broadcaster id="canGoForward" disabled="false"/>
@@ -36,8 +38,12 @@
                     label="Frente">
     </toolbarbutton>
 
-</toolbar>
+<html:form name="login">
+<html:input type="text" name="urlbar" size="30" />
+<html:input type="button" value="Ir" onclick="Login(this.form);" />
+</html:form>
 
+</toolbar>
 <browser id="browser-content" type="content-primary" 
             src="http://www.google.com" flex="1" context="botaodireito" />
 
