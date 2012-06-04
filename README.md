@@ -18,3 +18,7 @@ MaxVersion=15.0
 ```
 
 MinVersion é a versão mínima do XULRunner compatível e MaxVersion é a versão máxima compatível.
+
+----------
+
+Como ativar a rolagem suave: entre em "about:config" usando a barra de endereços. Adicione uma preferência boolean com o nome de "general.smoothScroll", com o valor true.
