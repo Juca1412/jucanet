@@ -45,7 +45,7 @@
 
 </toolbar>
 <browser id="browser-content" type="content-primary" 
-            src="http://www.google.com" flex="1" context="botaodireito" />
+            src="http://www.google.com/" flex="1" context="botaodireito" />
 
 <toolbar>
 <spacer flex="1"/>
