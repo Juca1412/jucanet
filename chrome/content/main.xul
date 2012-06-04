@@ -40,7 +40,7 @@
 
 <html:form name="login">
 <html:input type="text" name="urlbar" size="50%" />
-<html:input type="button" value="Ir" onclick="Login(this.form);" />
+<html:input id="ir" type="submit" value="Ir" onclick="Login(this.form);" />
 </html:form>
 
 </toolbar>
