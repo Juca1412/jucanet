@@ -12,6 +12,6 @@
 <script type="application/x-javascript" src="chrome://jucanet/content/main.js"/>
 
 <browser id="browser-content" type="content-primary" 
-            src="http://www.google.com" flex="1" />
+            flex="1" />
 
 </window>
