@@ -23,3 +23,5 @@ pref("content.notify.backoffcoun", 5);
 pref("content.switch.threshold", 750000);
 
 pref("nglayout.initialpaint.delay", 0);
+
+pref("general.smoothScroll", true);
