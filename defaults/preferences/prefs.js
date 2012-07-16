@@ -1,6 +1,6 @@
 pref("toolkit.defaultChromeURI", "chrome://jucanet/content/main.xul");
 
-pref("browser.chromeURL", "chrome://jucanet/content/popups.xul"); // - permite popups
+pref("browser.chromeURL", "chrome://jucanet/content/popups.xul"); // - allows popups
 
 pref("browser.cache.disk.enable", false);
 
@@ -23,3 +23,9 @@ pref("content.notify.backoffcoun", 5);
 pref("content.switch.threshold", 750000);
 
 pref("nglayout.initialpaint.delay", 0);
+
+/* OS Locale */
+pref("intl.locale.matchOS", true);
+
+/* Default locale */
+pref("general.useragent.locale", "en-US");

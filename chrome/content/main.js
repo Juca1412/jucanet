@@ -45,9 +45,9 @@ function goForward()
         webNavigation.goForward();
 }
 
-function openNotas()
+function openLocaleswitcher()
 {
-var win = window.open("chrome://jucanet/content/notas/notas.xul", 
+var win = window.open("chrome://jucanet/content/locale.xul", 
                       "aboutMyExtension", "chrome,centerscreen"); 
 }
 
