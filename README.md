@@ -1,15 +1,11 @@
 JucaNet
 =======
 
-Navegador fullscreen em XUL
+XUL fullscreen browser
 
-Instruções:
+Instructions
 
-Use o seguinte comando git ```$ git clone git://github.com/Juca1412/JucaNet.git``` OU baixe o código como um ZIP, clicando no botão no topo da página.
-Em seguida, faça download do Mozilla XULRunner em http://ftp.mozilla.org/pub/xulrunner/nightly/latest-mozilla-central/. O arquivo a ser baixado depende do seu sistema operacional.
-Extraia o XULRunner em uma pasta com o nome de "xulrunner", que deve ficar na raíz do JucaNet.
-Copie o binário/executável "xulrunner-stub" da pasta "xulrunner" para a raíz. Renomeie para JucaNet e execute.
-
-----------
-
-Como ativar a rolagem suave: entre em "about:config" usando a barra de endereços. Adicione uma preferência boolean com o nome de "general.smoothScroll", com o valor true.
+Use  ```$ git clone git://github.com/Juca1412/JucaNet.git``` git command or download the code as a ZIP package.
+Then download Mozilla XULRunner at http://ftp.mozilla.org/pub/xulrunner/nightly/latest-mozilla-central/. The package to be downloaded depends on your operating system.
+Extract XULRunner in a folder named "xulrunner", wich should be in JucaNet's root.
+Copy the binary/executable "xulrunner-stub" from "xulrunner" folder to JucaNet's root. Rename it to JucaNet and run it.
