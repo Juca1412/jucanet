@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+<?xml-stylesheet href="chrome://jucanet/content/style.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://branding/locale/brand.dtd">
+
+<window id="browserwin" title="JucaNet" 
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    onload="initBrowser()">
+
+<script type="application/x-javascript" src="chrome://jucanet/content/main.js"/>
+
+<script type="application/x-javascript" src="chrome://jucanet/content/fullscreen.js"/>
+
+<script type="application/x-javascript" src="chrome://jucanet/content/urlbar.js"/>
+
+<broadcasterset id="browserBroadcasters">
+    <broadcaster id="canGoBack"    disabled="false"/>
+    <broadcaster id="canGoForward" disabled="false"/>
+</broadcasterset>
+
+
+<toolbar class="toolbar-primary chromeclass-toolbar" id="navigation-bar" persist="collapsed" 
+              tbalign="stretch">
+
+    <toolbarbutton id="back-button" class="toolbarbutton-1"
+                    tooltiptext="Ir para tras"
+                    oncommand="goBack();"
+                    observes="canGoBack"
+                    label="&back.button;">
+    </toolbarbutton>
+             
+    <toolbarbutton id="forward-button" class="toolbarbutton-1"
+                    tooltiptext="Ir para frente"
+                    oncommand="goForward();"
+                    observes="canGoForward"
+                    label="&forward.button;">
+    </toolbarbutton>
+
+<html:form name="login">
+<html:input type="text" name="urlbar" size="50%" />
+<html:input id="ir" type="submit" value="Go" onclick="Login(this.form);" />
+</html:form>
+
+</toolbar>
+<browser id="browser-content" type="content-primary" 
+            src="http://www.google.com/" flex="1" context="botaodireito" />
+
+<toolbar>
+<spacer flex="1"/>
+
+  <menu pack="end" class="menu" label="&menu.menu;">
+    <menupopup>
+
+<menu id="janelamenu" label="&window.menu;">
+<menupopup>
+<menuitem oncommand="window.minimize();" label="&minimize.menuitem;" />
+</menupopup>
+</menu>
+
+
+<menu id="sobremenu" label="&about.menu;">
+<menupopup>
+<menuitem oncommand="loadPage('chrome://jucanet/content/sobre/sobre.html')" label="&about.menuitem;" />
+<menuitem oncommand="loadPage('chrome://jucanet/content/sobre/licensa.html')" label="&license.menuitem;" />
+<menuitem oncommand="loadPage('chrome://jucanet/content/sobre/creditos.html')" label="&credits.menuitem;" />
+</menupopup>
+</menu>
+        <menuitem oncommand="window.close();" label="&exit.menuitem;" />
+    </menupopup>
+  </menu>
+</toolbar>
+
+</window>

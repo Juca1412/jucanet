@@ -1,0 +1,13 @@
+<!ENTITY  brandShortName        "JucaNet">
+<!ENTITY  brandFullName         "JucaNet">
+<!ENTITY  vendorShortName       "JucaNet">
+<!ENTITY forward.button "Forward">
+<!ENTITY back.button "Back">
+<!ENTITY menu.menu "Menu">
+<!ENTITY window.menu "Window">
+<!ENTITY minimize.menuitem "Minimize">
+<!ENTITY about.menu "About">
+<!ENTITY about.menuitem "About">
+<!ENTITY license.menuitem "License">
+<!ENTITY credits.menuitem "Credits">
+<!ENTITY exit.menuitem "Close">
